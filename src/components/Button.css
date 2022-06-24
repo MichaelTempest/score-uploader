@@ -1,14 +1,34 @@
+:root {
+    --pressDist: 4px;
+}
+
 .play {
     background: #fff;
-    border: 1px solid #999;
+    border: 0px solid #fff;
     float: left;
     font-size: 24px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 40px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
-  }
+    width: 35px;
+    display: inline;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    margin: 15px;
+}
+
+.play:hover {
+    height: 40px;
+    border: 2px solid rgb(188, 76, 76);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-top: 2px solid #282c34;
+}
+
+/*.play {
+    height: 40px;
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-top: 2px solid #282c34;
+}*/
